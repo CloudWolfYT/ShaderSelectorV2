@@ -1,7 +1,7 @@
 # Shader Selector V2 (Minecraft Resource Pack)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?)](#contributors-)
-[![Discord](https://img.shields.io/badge/Discord-⛓-blue.svg)](https://discord.gg/VzjQ7kFKqD)
+[![Discord](https://img.shields.io/badge/Discord-⛓-blue.svg)](https://discord.gg/AsHA7GgqqM)
 [![Tutorial](https://img.shields.io/badge/Tutorial-▶-red.svg)](https://www.youtube.com/watch?v=2RvUduq4L4Q)
 [![Downloads](https://img.shields.io/github/downloads/CloudWolfYT/ShaderSelectorV2/total.svg)](https://github.com/CloudWolfYT/ShaderSelectorV2/releases)
 
