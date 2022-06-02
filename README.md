@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?)](#contributors-)
 [![Discord](https://img.shields.io/badge/Discord-⛓-blue.svg)](https://discord.gg/VzjQ7kFKqD)
 [![Tutorial](https://img.shields.io/badge/Tutorial-▶-red.svg)](https://www.youtube.com/watch?v=2RvUduq4L4Q)
-
+[![Downloads](https://img.shields.io/github/downloads/CloudWolfYT/ShaderSelector/total.svg)](https://github.com/CloudWolfYT/ShaderSelector/releases)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="images/social.png"
      alt="Social Image"
