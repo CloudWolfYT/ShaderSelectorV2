@@ -30,12 +30,16 @@ To use this pack, download the shader pack and go to "minecraft/assets/shaders/p
 Channel 1 is specified by R=255 and G=253, to change the B value of it use:
 <!-- markdownlint-enable -->
 ```
-     particle minecraft:entity_effect ~ ~ ~ 0.9960784313725490196078431372549 0.9921568627450980392156862745098 B 1 0 force @s
+particle minecraft:entity_effect ~ ~ ~ 0.9960784313725490196078431372549 0.9921568627450980392156862745098 B 1 0 force @s
 ```
 <!-- markdownlint-disable -->
 Channel 2 is specified by R=255 and G=252, to change the B value of it use:
      particle minecraft:entity_effect ~ ~ ~ 0.9960784313725490196078431372549 0.98823529411764705882352941176471 B 1 0 force @s
-
+<!-- markdownlint-enable -->
+```
+particle minecraft:entity_effect ~ ~ ~ 0.9960784313725490196078431372549 0.98823529411764705882352941176471 B 1 0 force @s
+```
+<!-- markdownlint-disable -->
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 
