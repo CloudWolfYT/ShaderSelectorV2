@@ -42,7 +42,7 @@
         {
             "name": "transparency",
             "intarget": "minecraft:main",
-            "outtarget": "swap",
+            "outtarget": "final",
             "auxtargets": [
                 {
                     "name": "DiffuseDepthSampler",
@@ -89,6 +89,24 @@
                     "id": "weather:depth"
                 }
             ]
+        },
+        {
+            "name": "debug/draw_text",
+            "intarget": "final",
+            "auxtargets": [
+                {
+                    "name": "FontSampler",
+                    "id": "shader_font",
+                    "width":1,
+                    "height":1,
+                    "bilinear":false
+                },
+                {
+                    "name": "NumberSampler",
+                    "id":"controller"
+                }
+            ],
+            "outtarget": "swap"
         },
         {
             "name": "blit",
