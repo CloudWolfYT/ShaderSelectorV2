@@ -1,0 +1,1 @@
+execute as @a[scores={SS.ScreenShake.Magnitude=0..255}] run function ss_shake:get_params
