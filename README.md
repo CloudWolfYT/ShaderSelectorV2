@@ -13,17 +13,6 @@
 ## The Source Code for this was obtained from the example by Der Discohund:
 https://github.com/HalbFettKaese/common-shaders
 
-## Flashlight Example 💡
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<img src="images/flashlight.png"
-     alt="Flashlight"
-     style="float: left; margin-right: 10px;" /> <br>
-In the "flashlight" example files, right clicking a carrot on a stick causes the flashlight to turn on/off. While the flashlight is on "battery" scoreboard is drained, and as it goes down the overlay in the top left corner indicates battery level. This example demonstrates the two channel handling. The battery display can operate independent of the flashlight as it is on the Blue channel and the flashlight is on the Green. <br>
-Note: The datapack implementation makes the flashlight multiplay friendly. <br>
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-
 ## How to Use 📝
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -40,6 +29,28 @@ Channel 2 is specified by R=255 and G=252, to change the B value of it use:
 particle minecraft:entity_effect ~ ~ ~ 0.9960784313725490196078431372549 0.98823529411764705882352941176471 B 1 0 force @s
 ```
 <!-- markdownlint-disable -->
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+
+## Flashlight Example 💡
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<img src="images/flashlight.png"
+     alt="Flashlight"
+     style="float: left; margin-right: 10px;" /> <br>
+In the "flashlight" example files, right clicking a carrot on a stick causes the flashlight to turn on/off. While the flashlight is on "battery" scoreboard is drained, and as it goes down the overlay in the top left corner indicates battery level. This example demonstrates the two channel handling. The battery display can operate independent of the flashlight as it is on the Blue channel and the flashlight is on the Green. <br>
+Note: The datapack implementation makes the flashlight multiplay friendly. <br>
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+
+## Screen Shake Example 💡
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<img src="images/screenshake.png"
+     alt="Screen Shake"
+     style="float: left; margin-right: 10px;" /> <br>
+The screen shake example shakes the screen with a fixed frequency and magnitude when Channel #1's blue particle is set to 0.003921568627451 (this is 1/255). The advanced screen shake example allows you to control the magnitude with a scoreboard which controls Channel #1 and the frequency with a scoreboard which controls Channel #2. Macros from 1.20.2 are used to simplify the particle selection.
+
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 
