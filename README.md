@@ -54,6 +54,17 @@ The screen shake example shakes the screen with a fixed frequency and magnitude 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 
+## Phosphor Example 💡
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<img src="images/phosphor.png"
+     alt="Phosphor"
+     style="float: left; margin-right: 10px;" /> <br>
+The phosphor example implements the vanilla shader "phosphor" as a togglable effect with the shader selector. A new target is added to the post to hold the previous frame. Controlling the vec3 Phosphor variable inside shader.fsh will control the strength of the effect (0-1).
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+
 ## How it Works! 🔨
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
