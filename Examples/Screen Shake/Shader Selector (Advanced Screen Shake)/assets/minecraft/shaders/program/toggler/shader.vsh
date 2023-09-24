@@ -9,6 +9,11 @@ uniform sampler2D ControlSampler;
 
 out vec2 texCoord;
 
+float time() {
+    vec3 control_time = texelFetch(ControlSampler, ivec2(0, 0), 0).rgb;
+    return control_time.x + 255. * control_time.y + 65025. * control_time.z;
+}
+
 void main(){
     // REQUIRED Blit Copy Statement
     float x = -1.0; 
@@ -27,7 +32,7 @@ void main(){
     // Normalized pixel coordinates (from 0 to 1)
     vec2 uv = Position.xy/OutSize.xy;
 
-    vec4 control_time  = texelFetch(ControlSampler, ivec2(0, 0), 0);
+    float t = time();
     vec4 control_color = texelFetch(ControlSampler, ivec2(0, 2), 0);
     vec2 freq = vec2(control_color.b * 255.,control_color.b * 255.); // Channel #2 Controls Shake Freq
     control_color = texelFetch(ControlSampler, ivec2(0, 1), 0);
@@ -39,8 +44,8 @@ void main(){
     uv += 0.5;
 
     if(control_color.b * 255. > 0) {
-        uv.x += sin(control_time.r * freq.x) * magnitude.x;
-        uv.y += cos(control_time.r * freq.y) * magnitude.y;
+        uv.x += sin(t * freq.x) * magnitude.x;
+        uv.y += cos(t * freq.y) * magnitude.y;
     }
 
 //    switch(int(control_color.b * 255.)) {

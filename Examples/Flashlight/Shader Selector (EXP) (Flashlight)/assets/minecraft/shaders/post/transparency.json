@@ -30,16 +30,6 @@
             ]
         },
         {
-            "name": "toggler/remove",
-            "intarget": "particles",
-            "outtarget": "final"
-        },
-        {
-            "name": "blit",
-            "intarget": "final",
-            "outtarget": "particles"
-        },
-        {
             "name": "transparency",
             "intarget": "minecraft:main",
             "outtarget": "swap",

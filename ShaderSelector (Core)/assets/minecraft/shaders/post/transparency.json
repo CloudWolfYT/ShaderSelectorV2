@@ -2,7 +2,6 @@
     "targets": [
         { "name": "controller", "width": 2, "height": 3 },
         { "name": "controllerSwap", "width": 2, "height": 3 },
-        { "name": "manic.tentacles", "width": 256, "height": 256},
         "water",
         "translucent",
         "itemEntity",
@@ -28,16 +27,6 @@
                     "id": "particles"
                 }
             ]
-        },
-        {
-            "name": "toggler/remove",
-            "intarget": "particles",
-            "outtarget": "final"
-        },
-        {
-            "name": "blit",
-            "intarget": "final",
-            "outtarget": "particles"
         },
         {
             "name": "transparency",
